@@ -1,28 +1,27 @@
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
+body {
+  text-align: center;
+  font-family: lato;
+  background-color: #483a58;
+  color: white;
 }
 
 header {
-  font-size: xx-large;
   text-align: center;
 }
 
-main {
-  font-size: 160%;
-  text-align: center;
-}
-
-a:link {
+.epico {
+  color: white;
+  border: 5px solid crimson;
+  border-radius: 15px;
+  padding: 10px 32px;
+  display: inline-block;
+  font-size: x-large;
+  width: 35%;
+  background-color: brown;
   text-decoration: none;
-  color: cadetblue;
+  transition: 0.1s;
 }
 
-a:visited {
-  color: cadetblue;
-}
-
-a:hover {
-  text-decoration: underline;
-  font-size: 161%;
+.epico:hover {
+  width: 40%;
 }
