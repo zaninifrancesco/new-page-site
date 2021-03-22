@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  font-family: lato;
+  background-color: #483a58;
+  color: white;
+}
+
+header {
+  text-align: center;
+}
+
+.epico {
+  color: white;
+  border: 5px solid crimson;
+  border-radius: 15px;
+  padding: 10px 32px;
+  display: inline-block;
+  font-size: x-large;
+  width: 35%;
+  background-color: brown;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+.epico:hover {
+  width: 40%;
+}
